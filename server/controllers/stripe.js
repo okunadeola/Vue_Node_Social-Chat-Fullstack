@@ -2,7 +2,7 @@
 
 
 
-// const KEY = "sk_test_51JrmbwAVsqeK8xRi5FXzgZmDC2yxZuY6WtCE7M30nWV8ZVSweUDANe5ImcdY6B9kJuhBdr5a1OJoFq6n90ljybd500ed2rl8Ma"
+// const KEY = ""
 // const stripe = new Stripe(KEY)
 
 

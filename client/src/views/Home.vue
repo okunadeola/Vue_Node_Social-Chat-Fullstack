@@ -1,26 +1,33 @@
 <template>
   <div class="home">
-    <span>hi everyone {{name}} {{$store.state.egg}} </span>
+    <topbar></topbar>
+    <div class="homeContainer">
+      <side-bar></side-bar>
+      <feed></feed>
+      <right-bar></right-bar>
+    </div>
   </div>
-
 </template>
 
 <script>
-// @ is an alias to /src
-// import HelloWorld from "@/components/HelloWorld.vue";
+import Feed from "../components/Feed.vue";
+import RightBar from "../components/RightBar.vue";
+import SideBar from "../components/SideBar.vue";
 
+import Topbar from "../components/Topbar.vue";
 export default {
   name: "Home",
   components: {
+    Topbar,
+    SideBar,
+    Feed,
+    RightBar,
   },
-  data(){
-    return{
-      name: 'ola'
-    }
+  data() {
+    return {};
   },
 
-  methods:{
-
-  },
+  methods: {},
 };
 </script>
+
